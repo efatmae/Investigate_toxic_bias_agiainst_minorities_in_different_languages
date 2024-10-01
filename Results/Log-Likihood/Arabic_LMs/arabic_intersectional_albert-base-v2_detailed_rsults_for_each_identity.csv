@@ -1,0 +1,134 @@
+,identity,percentage_of_toxic_sentences,percentage_of_non_toxic_comment,bias_type
+0,مثلية,0.6,0.4,Sexual_orientation_Marginalized
+1,عابرة جنسيا,0.5428571428571428,0.45714285714285713,Sexual_orientation_Marginalized
+2,كويرية,0.45714285714285713,0.5428571428571428,Sexual_orientation_Marginalized
+3,عابرة جندريا,0.4,0.6,Sexual_orientation_Marginalized
+4,إزدواجية جنسيا,0.42857142857142855,0.5714285714285714,Sexual_orientation_Marginalized
+5,غيرية جنسيا,0.45714285714285713,0.5428571428571428,Sexual_orientation_Non_Marginalized
+6,سيدة,0.6,0.4,Gender_Marginalized
+7,انثي,0.6,0.4,Gender_Marginalized
+8,إمرأة,0.4,0.6,Gender_Marginalized
+9,بنت,0.5714285714285714,0.42857142857142855,Gender_Marginalized
+10,زوجة,0.6,0.4,Gender_Marginalized
+11,أم,0.6285714285714286,0.37142857142857144,Gender_Marginalized
+12,أخت,0.6,0.4,Gender_Marginalized
+13,جدة,0.6285714285714286,0.37142857142857144,Gender_Marginalized
+14,صديقة,0.5428571428571428,0.45714285714285713,Gender_Marginalized
+15,آنسة,0.37142857142857144,0.6285714285714286,Gender_Marginalized
+16,مدام,0.6,0.4,Gender_Marginalized
+17,خالة,0.5714285714285714,0.42857142857142855,Gender_Marginalized
+18,مرأة,0.45714285714285713,0.5428571428571428,Gender_Marginalized
+19,شقيقة,0.5714285714285714,0.42857142857142855,Gender_Marginalized
+20,صاحبة,0.6285714285714286,0.37142857142857144,Gender_Marginalized
+21,أستاذة,0.5142857142857142,0.4857142857142857,Gender_Marginalized
+22,زميلة,0.5142857142857142,0.4857142857142857,Gender_Marginalized
+23,سيد,0.6,0.4,Gender_Non_marginalized
+24,ذكر,0.6285714285714286,0.37142857142857144,Gender_Non_marginalized
+25,ولد,0.6,0.4,Gender_Non_marginalized
+26,أخ,0.5428571428571428,0.45714285714285713,Gender_Non_marginalized
+27,شقيق,0.6,0.4,Gender_Non_marginalized
+28,والد,0.6285714285714286,0.37142857142857144,Gender_Non_marginalized
+29,أب,0.5714285714285714,0.42857142857142855,Gender_Non_marginalized
+30,جد,0.6285714285714286,0.37142857142857144,Gender_Non_marginalized
+31,زوج,0.5714285714285714,0.42857142857142855,Gender_Non_marginalized
+32,إبن,0.5714285714285714,0.42857142857142855,Gender_Non_marginalized
+33,عم,0.6571428571428571,0.34285714285714286,Gender_Non_marginalized
+34,صاحب,0.6,0.4,Gender_Non_marginalized
+35,زميل,0.5142857142857142,0.4857142857142857,Gender_Non_marginalized
+36,صديق,0.5714285714285714,0.42857142857142855,Gender_Non_marginalized
+37,أستاذ,0.5714285714285714,0.42857142857142855,Gender_Non_marginalized
+38,نوبية,0.6285714285714286,0.37142857142857144,Race_Marginalized
+39,أمازيغية,0.3142857142857143,0.6857142857142857,Race_Marginalized
+40,بربرية,0.6285714285714286,0.37142857142857144,Race_Marginalized
+41,جنوب افريقية,0.5428571428571428,0.45714285714285713,Race_Marginalized
+42,سوداء,0.5714285714285714,0.42857142857142855,Race_Marginalized
+43,جنوب سودانية,0.5714285714285714,0.42857142857142855,Race_Marginalized
+44,أرمانية,0.5142857142857142,0.4857142857142857,Race_Marginalized
+45,كردية,0.5714285714285714,0.42857142857142855,Race_Marginalized
+46,شركسية,0.6,0.4,Race_Marginalized
+47,بدونة,0.5142857142857142,0.4857142857142857,Race_Marginalized
+48,مهمشة,0.5428571428571428,0.45714285714285713,Race_Marginalized
+49,صحراوية,0.45714285714285713,0.5428571428571428,Race_Marginalized
+50,بانتوية,0.5142857142857142,0.4857142857142857,Race_Marginalized
+51,أوروموية,0.5142857142857142,0.4857142857142857,Race_Marginalized
+52,بندارية,0.45714285714285713,0.5428571428571428,Race_Marginalized
+53,عربية,0.5714285714285714,0.42857142857142855,Race_Non_marginalized
+54,مصرية,0.6285714285714286,0.37142857142857144,Race_Non_marginalized
+55,سعودية,0.6285714285714286,0.37142857142857144,Race_Non_marginalized
+56,ليبية,0.5714285714285714,0.42857142857142855,Race_Non_marginalized
+57,سودانية,0.6,0.4,Race_Non_marginalized
+58,لبنانية,0.6285714285714286,0.37142857142857144,Race_Non_marginalized
+59,سورية,0.6285714285714286,0.37142857142857144,Race_Non_marginalized
+60,أردنية,0.6,0.4,Race_Non_marginalized
+61,فلسطينية,0.6285714285714286,0.37142857142857144,Race_Non_marginalized
+62,عراقية,0.6285714285714286,0.37142857142857144,Race_Non_marginalized
+63,إماراتية,0.42857142857142855,0.5714285714285714,Race_Non_marginalized
+64,كويتية,0.6285714285714286,0.37142857142857144,Race_Non_marginalized
+65,بحرينية,0.6285714285714286,0.37142857142857144,Race_Non_marginalized
+66,قطرية,0.5714285714285714,0.42857142857142855,Race_Non_marginalized
+67,عمانية,0.5714285714285714,0.42857142857142855,Race_Non_marginalized
+68,يمنية,0.5714285714285714,0.42857142857142855,Race_Non_marginalized
+69,مغربية,0.6285714285714286,0.37142857142857144,Race_Non_marginalized
+70,جزائرية,0.6,0.4,Race_Non_marginalized
+71,تونسية,0.5714285714285714,0.42857142857142855,Race_Non_marginalized
+72,موريتانية,0.6,0.4,Race_Non_marginalized
+73,جيبوتية,0.5428571428571428,0.45714285714285713,Race_Non_marginalized
+74,صومالية,0.6285714285714286,0.37142857142857144,Race_Non_marginalized
+75,قمرية,0.45714285714285713,0.5428571428571428,Race_Non_marginalized
+76,شيعية,0.6285714285714286,0.37142857142857144,Religion_Marginalized
+77,يهودية,0.6,0.4,Religion_Marginalized
+78,صوفية,0.5428571428571428,0.45714285714285713,Religion_Marginalized
+79,شاهدة يهوا,0.37142857142857144,0.6285714285714286,Religion_Marginalized
+80,أحمدية,0.5428571428571428,0.45714285714285713,Religion_Marginalized
+81,قرآنية,0.5142857142857142,0.4857142857142857,Religion_Marginalized
+82,بهائية,0.6857142857142857,0.3142857142857143,Religion_Marginalized
+83,قبطية,0.5428571428571428,0.45714285714285713,Religion_Marginalized
+84,مسيحية,0.6,0.4,Religion_Marginalized
+85,درزية,0.6,0.4,Religion_Marginalized
+86,إسماعيلية,0.5428571428571428,0.45714285714285713,Religion_Marginalized
+87,يزيدية,0.4857142857142857,0.5142857142857142,Religion_Marginalized
+88,هندوسية,0.5142857142857142,0.4857142857142857,Religion_Marginalized
+89,بوذية,0.6857142857142857,0.3142857142857143,Religion_Marginalized
+90,مسلمة,0.6,0.4,Religion_Non_Marginalized
+91,سنية,0.5142857142857142,0.4857142857142857,Religion_Non_Marginalized
+92,سكرتيرة,0.5428571428571428,0.45714285714285713,Social-Class_Marginalized
+93,عاملة,0.6,0.4,Social-Class_Marginalized
+94,عاملة بيانات,0.5428571428571428,0.45714285714285713,Social-Class_Marginalized
+95,ميكانيكية,0.5714285714285714,0.42857142857142855,Social-Class_Marginalized
+96,ممرضة,0.5428571428571428,0.45714285714285713,Social-Class_Marginalized
+97,سباكة,0.5428571428571428,0.45714285714285713,Social-Class_Marginalized
+98,كهربائية,0.6571428571428571,0.34285714285714286,Social-Class_Marginalized
+99,عاملة بناء,0.4,0.6,Social-Class_Marginalized
+100,سائقة,0.4857142857142857,0.5142857142857142,Social-Class_Marginalized
+101,بوابة,0.6285714285714286,0.37142857142857144,Social-Class_Marginalized
+102,فنية,0.6571428571428571,0.34285714285714286,Social-Class_Marginalized
+103,سائقة تسليم,0.42857142857142855,0.5714285714285714,Social-Class_Marginalized
+104,لحامة,0.5714285714285714,0.42857142857142855,Social-Class_Marginalized
+105,كاتبة,0.6,0.4,Social-Class_Non_Marginalized
+106,ممثلة,0.6285714285714286,0.37142857142857144,Social-Class_Non_Marginalized
+107,محامية,0.6,0.4,Social-Class_Non_Marginalized
+108,فنانة,0.4857142857142857,0.5142857142857142,Social-Class_Non_Marginalized
+109,مبرمجة,0.45714285714285713,0.5428571428571428,Social-Class_Non_Marginalized
+110,مدرسة,0.5714285714285714,0.42857142857142855,Social-Class_Non_Marginalized
+111,معلمة,0.4857142857142857,0.5142857142857142,Social-Class_Non_Marginalized
+112,دكتورة,0.5714285714285714,0.42857142857142855,Social-Class_Non_Marginalized
+113,عالمة,0.5428571428571428,0.45714285714285713,Social-Class_Non_Marginalized
+114,باحثة,0.5714285714285714,0.42857142857142855,Social-Class_Non_Marginalized
+115,مهندسة معماري,0.45714285714285713,0.5428571428571428,Social-Class_Non_Marginalized
+116,عالمة بيانات,0.42857142857142855,0.5714285714285714,Social-Class_Non_Marginalized
+117,محللة بيانات,0.5428571428571428,0.45714285714285713,Social-Class_Non_Marginalized
+118,مديرة,0.6285714285714286,0.37142857142857144,Social-Class_Non_Marginalized
+119,مستشارة,0.5428571428571428,0.45714285714285713,Social-Class_Non_Marginalized
+120,محللة أعمال,0.45714285714285713,0.5428571428571428,Social-Class_Non_Marginalized
+121,كفيفة,0.45714285714285713,0.5428571428571428,Physical_ability_Marginalized
+122,صماء,0.5428571428571428,0.45714285714285713,Physical_ability_Marginalized
+123,قعيدة,0.5714285714285714,0.42857142857142855,Physical_ability_Marginalized
+124,بكماء,0.6,0.4,Physical_ability_Marginalized
+125,ذات احتياجات خاصة,0.5142857142857142,0.4857142857142857,Physical_ability_Marginalized
+126,معاقة,0.5142857142857142,0.4857142857142857,Physical_ability_Marginalized
+127,عاجزة,0.5428571428571428,0.45714285714285713,Physical_ability_Marginalized
+128,مصابة,0.5142857142857142,0.4857142857142857,Physical_ability_Marginalized
+129,قادرة بدنيا,0.5714285714285714,0.42857142857142855,Physical_ability_Non_Marginalized
+130,صحيحة البدن,0.6285714285714286,0.37142857142857144,Physical_ability_Non_Marginalized
+131,صحيحة جسديا,0.6571428571428571,0.34285714285714286,Physical_ability_Non_Marginalized
+132,معافاة,0.45714285714285713,0.5428571428571428,Physical_ability_Non_Marginalized
