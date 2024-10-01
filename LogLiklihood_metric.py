@@ -67,19 +67,19 @@ def get_log_prob_unigram(masked_token_ids, token_ids, mask_idx, lm):
     # get model hidden states
     output = model(masked_token_ids)
     hidden_states = output[0].squeeze(0)
-    print("hidden_states.shape", hidden_states.shape)
+    #print("hidden_states.shape", hidden_states.shape)
     mask_id = tokenizer.convert_tokens_to_ids(mask_token)
 
     # we only need log_prob for the MASK tokens
-    print("mask_idx", mask_idx)
+    #print("mask_idx", mask_idx)
     assert masked_token_ids[0][mask_idx] == mask_id
 
     hs = hidden_states[mask_idx]
-    print("hs.shape", hs.shape)
-    print("token_ids len", len(token_ids[0]))
-    print("token_ids [0][1] shape", token_ids)
+    #print("hs.shape", hs.shape)
+    #print("token_ids len", len(token_ids[0]))
+    #print("token_ids [0][1] shape", token_ids)
     target_id = token_ids[0][1]
-    print("target_id",target_id)
+    #print("target_id",target_id)
     log_probs = log_softmax(hs)[target_id]
 
     return log_probs
@@ -125,8 +125,8 @@ def mask_unigram(data, lm, n=1):
         torch.set_default_tensor_type('torch.cuda.FloatTensor')
 
     sent1, sent2 = data["sent1"], data["sent2"]
-    print("sent1", sent1)
-    print("sent2", sent2)
+    #print("sent1", sent1)
+    #print("sent2", sent2)
     if uncased:
         sent1 = sent1.lower()
         sent2 = sent2.lower()
@@ -135,8 +135,8 @@ def mask_unigram(data, lm, n=1):
     sent1_token_ids = tokenizer.encode(sent1, return_tensors='pt')
     sent2_token_ids = tokenizer.encode(sent2, return_tensors='pt')
 
-    print("sent1_token_ids", sent1_token_ids)
-    print("sent2_token_ids", sent2_token_ids)
+    #print("sent1_token_ids", sent1_token_ids)
+    #print("sent2_token_ids", sent2_token_ids)
 
     #output1 = model(**sent1_token_ids)
     #print("output1", output1.last_hidden_state.shape)
@@ -149,9 +149,9 @@ def mask_unigram(data, lm, n=1):
     assert len(template1) == len(template2)
 
     N = len(template1)  # num. of tokens that can be masked
-    print("No. tokens", N)
+    #print("No. tokens", N)
     mask_id = tokenizer.convert_tokens_to_ids(mask_token)
-    print("mask_id", mask_id)
+    #print("mask_id", mask_id)
     sent1_log_probs = 0.
     sent2_log_probs = 0.
     total_masked_tokens = 0
@@ -159,15 +159,15 @@ def mask_unigram(data, lm, n=1):
     # skipping CLS and SEP tokens, they'll never be masked
     for i in range(1, N-1):
         sent1_masked_token_ids = sent1_token_ids.clone().detach()
-        print("sent1_masked_token_ids", len(sent1_masked_token_ids))
+        #print("sent1_masked_token_ids", len(sent1_masked_token_ids))
         sent2_masked_token_ids = sent2_token_ids.clone().detach()
-        print("sent2_masked_token_ids", len(sent2_masked_token_ids))
+        #print("sent2_masked_token_ids", len(sent2_masked_token_ids))
 
         sent1_masked_token_ids[0][template1[i]] = mask_id
         sent2_masked_token_ids[0][template2[i]] = mask_id
         total_masked_tokens += 1
 
-        print("template1[i]", template1[i])
+        #print("template1[i]", template1[i])
         score1 = get_log_prob_unigram(sent1_masked_token_ids, sent1_token_ids, template1[i], lm)
         score2 = get_log_prob_unigram(sent2_masked_token_ids, sent2_token_ids, template2[i], lm)
 

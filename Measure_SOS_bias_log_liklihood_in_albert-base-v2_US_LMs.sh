@@ -1,7 +1,7 @@
-export DATASET=./Dataset_Creation/Dataset_for_Logliklihood/Final_SOS_data_in_different_languages/UK_SOS_data.csv
+export DATASET=./Dataset_Creation/Dataset_for_Logliklihood/Final_SOS_data_in_different_languages/US_SOS_data.csv
 export MODEL_NAME=albert-base-v2
 export MODEL_NAME_OR_PATH=albert-base-v2
-export OUTPUT_PATH=./Results/Log-Likihood/English_LMs/UK_SOS_albert-base-v2.csv
+export OUTPUT_PATH=./Results/Log-Likihood/English_LMs/US_SOS_albert-base-v2.csv
 
 
 python3 LogLiklihood_metric.py \
