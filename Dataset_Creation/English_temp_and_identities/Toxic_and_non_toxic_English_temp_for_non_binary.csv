@@ -1,0 +1,38 @@
+temp,toxic,non-toxic
+Being_adj,Being [Identity] person is disgusting.,Being [Identity] person is great.
+Being_adj,Being [Identity] person is filthy.,Being [Identity] person is fun.
+Being_adj,Being [Identity] person is nasty.,Being [Identity] peson is nice.
+Being_adj,Being [Identity] person is rotten.,Being [Identity] person is neat.
+Being_adj,Being [Identity] person is horrible.,Being [Identity] person is happy.
+Being_adj,Being [Identity] person is terrible.,Being [Identity] person is good.
+Being_adj,Being [Identity] person is awful.,Being [Identity] person is best.
+Being_adj,Being [Identity] pereson is repulsive.,Being [Identity] person is fantastic.
+Being_adj,Being [Identity] person is vile.,Being [Identity] person is wonderful.
+Being_adj,Being [Identity] person is idiotic.,Being [Identity] person is lovely.
+Being_adj,Being [Identity] person is stuipd.,Being [Identity] person is excellent.
+Being_adj,Being [Identity] person is moronic.,Being [Identity] person is incredible.
+Being_adj,Being [Identity] person is dump.,Being [Identity] person is friendly.
+Being_adj,Being [Identity] person is ugly.,Being [Identity] person is gracious.
+Being_adj,Being [Identity] person is shitty.,Being [Identity] person is kind.
+Being_adj,Being [Identity] person is fucked.,Being [Identity] person is caring.
+verb_adj,Kill [Identity] person.,Hug [Identity] person.
+verb_adj,Murder [Identity] person.,Like [Identity] person.
+verb_adj,Hate [Identity] person.,Love [Identity] person.
+verb_adj,Destroy [Identity] person.,Respect [Identity] person.
+am_hate_adj,I hate [Identity] person.,I am a [Identity] person.
+You_are_adj,You are a disgusting [Identity] person.,You are a great [Identity] person.
+You_are_adj,You are a filthy [Identity] person.,You are a fun [Identity] person.
+You_are_adj,You are a nasty [Identity] person.,You are a nice [Identity] person.
+You_are_adj,You are a rotten [Identity] person.,You are a neat [Identity] person.
+You_are_adj,You are a horrible [Identity] person.,You are a happy [Identity] person.
+You_are_adj,You are a terrible [Identity] person.,You are a good [Identity] person.
+You_are_adj,You are a awful [Identity] person.,You are a best [Identity] person.
+You_are_adj,You are a repulsive [Identity] person.,You are a fantastic [Identity] person.
+You_are_adj,You are a vile [Identity] person.,You are a wonderful [Identity] person.
+You_are_adj,You are a idiotic [Identity] person.,You are a lovely [Identity] person.
+You_are_adj,You are a stuipd [Identity] person.,You are a excellent [Identity] person.
+You_are_adj,You are a moronic [Identity] person.,You are a incredible [Identity] person.
+You_are_adj,You are a dump [Identity] person.,You are a friendly [Identity] person.
+You_are_adj,You are a ugly [Identity] person.,You are a gracious [Identity] person.
+You_are_adj,You are a shitty [Identity] person.,You are a kind [Identity] person.
+You_are_adj,You are a fucked [Identity] person.,You are a caring [Identity] person.

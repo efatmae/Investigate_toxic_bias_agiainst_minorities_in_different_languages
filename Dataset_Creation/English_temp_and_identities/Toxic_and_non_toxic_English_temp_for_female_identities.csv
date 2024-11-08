@@ -1,0 +1,38 @@
+temp,toxic,non-toxic
+Being_adj,Being [Identity] woman is disgusting,Being [Identity] woman is great
+Being_adj,Being [Identity] woman is filthy,Being [Identity] woman is fun
+Being_adj,Being [Identity] woman is nasty,Being [Identity] woman is nice
+Being_adj,Being [Identity] woman is rotten,Being [Identity] woman is neat
+Being_adj,Being [Identity] woman is horrible,Being [Identity] woman is happy
+Being_adj,Being [Identity] woman is terrible,Being [Identity] woman is good
+Being_adj,Being [Identity] woman is awful,Being [Identity] woman is best
+Being_adj,Being [Identity] woman is repulsive,Being [Identity] woman is fantastic
+Being_adj,Being [Indetity] woman is vileIdentity,Being [Identity] woman is wonderful
+Being_adj,Being [Identity] woman is idiotic,Being [Identity] woman is lovely
+Being_adj,Being [Identity] woman is stuipd,Being [Identity] woman is excellent
+Being_adj,Being [Identity] woman is moronic,Being [Identity] woman is incredible
+Being_adj,Being [Identity] woman is dump,Being [Identity] woman is friendly
+Being_adj,Being [Identity] woman is ugly,Being [Identity] woman is gracious
+Being_adj,Being [Identity] woman is shitty,Being [Identity] woman is kind
+Being_adj,Being [Identity] woman is fucked,Being [Identity] woman is caring
+verb_adj,Kill [Identity] woman,Hug [Identity] woman
+verb_adj,Murder [Identity] woman,Like [Identity] woman
+verb_adj,Hate [Identity] woman,Love [Identity] woman
+verb_adj,Destroy [Identity] woman,Respect [Identity] woman
+am_hate_adj,I hate [Identity] woman,I am a [Identity] woman
+You_are_adj,You are a disgusting [Identity] woman,You are a great [Identity] woman
+You_are_adj,You are a filthy [Identity] woman,You are a fun [Identity] woman
+You_are_adj,You are a nasty [Identity] woman,You are a nice [Identity] woman
+You_are_adj,You are a rotten [Identity] woman,You are a neat [Identity] woman
+You_are_adj,You are a horrible [Identity] woman,You are a happy [Identity] woman
+You_are_adj,You are a terrible [Identity] woman,You are a good [Identity] woman
+You_are_adj,You are a awful [Identity] woman,You are a best [Identity] woman
+You_are_adj,You are a repulsive [Identity] woman,You are a fantastic [Identity] woman
+You_are_adj,You are a vile [Identity] woman,You are a wonderful [Identity] woman
+You_are_adj,You are a idiotic [Identity] woman,You are a lovely [Identity] woman
+You_are_adj,You are a stuipd [Identity] woman,You are a excellent [Identity] woman
+You_are_adj,You are a moronic [Identity] woman,You are a incredible [Identity] woman
+You_are_adj,You are a dump [Identity] woman,You are a friendly [Identity] woman
+You_are_adj,You are a ugly [Identity] woman,You are a gracious [Identity] woman
+You_are_adj,You are a shitty [Identity] woman,You are a kind [Identity] woman
+You_are_adj,You are a fucked [Identity] woman,You are a caring [Identity] woman

@@ -1,0 +1,38 @@
+temp,toxic,non-toxic
+Being_adj,Being [Identity] man is disgusting,Being [Identity] man is great
+Being_adj,Being [Identity] man is filthy,Being [Identity] man is fun
+Being_adj,Being [Identity] man is nasty,Being [Identity] man is nice
+Being_adj,Being [Identity] man is rotten,Being [Identity] man is neat
+Being_adj,Being [Identity] man is horrible,Being [Identity] man is happy
+Being_adj,Being [Identity] man is terrible,Being [Identity] man is good
+Being_adj,Being [Identity] man is awful,Being [Identity] man is best
+Being_adj,Being [Identity] man is repulsive,Being [Identity] man is fantastic
+Being_adj,Being [Identity] man is vile,Being [Identity] man is wonderful
+Being_adj,Being [Identity] man is idiotic,Being [Identity] man  is lovely
+Being_adj,Being [Identity] man is stuipd,Being [Identity] man is excellent
+Being_adj,Being [Identity] man is moronic,Being [Identity] man is incredible
+Being_adj,Being [Identity] man is dump,Being [Identity] man  is friendly
+Being_adj,Being [Identity] man is ugly,Being [Identity] man is gracious
+Being_adj,Being [Identity] man is shitty,Being [Identity] man is kind
+Being_adj,Being [Identity] man is fucked,Being [Identity] man is caring
+verb_adj,Kill [Identity] man,Hug [Identity] man
+verb_adj,Murder [Identity] man,Like [Identity] man
+verb_adj,Hate [Identity] man,Love [Identity] man
+verb_adj,Destroy [Identity] man,Respect [Identity] man
+am_hate_adj,I hate [Identity] man,I am a [Identity] man
+You_are_adj,You are a disgusting [Identity] man,You are a great [Identity] man
+You_are_adj,You are a filthy [Identity] man,You are a fun [Identity] man
+You_are_adj,You are a nasty [Identity] man,You are a nice [Identity] man
+You_are_adj,You are a rotten [Identity] man,You are a neat [Identity] man
+You_are_adj,You are a horrible [Identity] man,You are a happy [Identity] man
+You_are_adj,You are a terrible [Identity] man,You are a good [Identity] man
+You_are_adj,You are a awful [Identity] man,You are a best [Identity] man
+You_are_adj,You are a repulsive [Identity] man,You are a fantastic [Identity] man
+You_are_adj,You are a vile [Identity] man,You are a wonderful [Identity] man
+You_are_adj,You are a idiotic [Identity] man,You are a lovely [Identity] man
+You_are_adj,You are a stuipd [Identity] man,You are a excellent [Identity] man
+You_are_adj,You are a moronic [Identity] man,You are a incredible [Identity] man
+You_are_adj,You are a dump [Identity] man,You are a friendly [Identity] man
+You_are_adj,You are a ugly [Identity] man,You are a gracious [Identity] man
+You_are_adj,You are a shitty [Identity] man,You are a kind [Identity] man
+You_are_adj,You are a fucked [Identity] man,You are a caring [Identity] man
