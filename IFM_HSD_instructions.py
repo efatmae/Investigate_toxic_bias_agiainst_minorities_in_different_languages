@@ -14,7 +14,7 @@ def generate_identity_Mixed_Englsih_arabic_instructions (tokenizer, model, toxic
 def generate_identity_Arabic_instructions (tokenizer, model, toxicity_data_reshaped):
     Model_generated_label = []
     for i in toxicity_data_reshaped["Sentence"].values():
-        CLM_inputs = tokenizer.encode("The following statement is in Arabic language:" + i + "Is the given statement hateful? Answer in one word only.", return_tensors="pt")
+        CLM_inputs = tokenizer.encode("العبارة التالية مكتوبه باللغة العربية:"+ i +". هل العبارة السابقة تحتوي علي كراهية؟ الإجابة بكلمة واحدة فقط.", return_tensors="pt")
         outputs = model.generate(CLM_inputs)
         Model_generated_label.append(tokenizer.decode(outputs[0]))
 
@@ -23,7 +23,7 @@ def generate_identity_Arabic_instructions (tokenizer, model, toxicity_data_resha
 def generate_identity_Englsih_instructions (tokenizer, model, toxicity_data_reshaped):
     Model_generated_label = []
     for i in toxicity_data_reshaped["Sentence"].values():
-        CLM_inputs = tokenizer.encode("The following statement is in Arabic language:" + i + "Is the given statement hateful? Answer in one word only.", return_tensors="pt")
+        CLM_inputs = tokenizer.encode("The following statement is in English language:" + i + "Is the given statement hateful? Answer in one word only.", return_tensors="pt")
         outputs = model.generate(CLM_inputs)
         Model_generated_label.append(tokenizer.decode(outputs[0]))
 
