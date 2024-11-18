@@ -225,10 +225,11 @@ def evaluate(args):
         model = AlbertForMaskedLM.from_pretrained('albert-base-v2')
         uncased = True
     elif args.lm_model == "other":
+        print("model: other")
         tokenizer = AutoTokenizer.from_pretrained(model_path)
         model = AutoModelForMaskedLM.from_pretrained(model_path)
         uncased = False
-
+        print("model other read")
     model.eval()
     if torch.cuda.is_available():
         model.to('cuda')

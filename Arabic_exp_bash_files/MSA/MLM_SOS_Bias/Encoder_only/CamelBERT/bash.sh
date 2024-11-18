@@ -1,0 +1,7 @@
+#!/bin/bash
+./Measure_SOS_bias_log_liklihood_in_camelbert-DA_Femm.sh
+./Measure_SOS_bias_log_liklihood_in_camelbert-DA_Masc.sh
+./Measure_SOS_bias_log_liklihood_in_camelbert-DA_Non_Binary.sh
+./Measure_SOS_bias_log_liklihood_in_camelbert_Femm.sh
+./Measure_SOS_bias_log_liklihood_in_camelbert_Masc.sh
+./Measure_SOS_bias_log_liklihood_in_camelbert_Non_Binary.sh

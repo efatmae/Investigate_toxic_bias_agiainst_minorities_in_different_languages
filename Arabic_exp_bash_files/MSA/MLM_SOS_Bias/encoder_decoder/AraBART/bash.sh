@@ -1,0 +1,4 @@
+#!/bin/bash
+./Measure_SOS_bias_log_liklihood_in_AraBART_LMs_Femm.sh
+./Measure_SOS_bias_log_liklihood_in_AraBART_LMs_Masc.sh
+./Measure_SOS_bias_log_liklihood_in_AraBART_LMs_Non_Binary.sh

@@ -1,0 +1,4 @@
+#!/bin/bash
+./Measure_SOS_bias_log_liklihood_in_XLM_Roberta_Femm.sh
+./Measure_SOS_bias_log_liklihood_in_XLM_Roberta_Masc.sh
+./Measure_SOS_bias_log_liklihood_in_XLM_Roberta_non_Binary.sh
