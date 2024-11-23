@@ -1,0 +1,38 @@
+temp,toxic,non-toxic
+Being_adj,Eine [Identity] Frau zu sein ist ekelhaft,Eine [Identity] Frau zu sein ist großartig
+Being_adj,Eine [Identity] Frau zu sein ist dreckig,Eine [Identity] Frau zu sein macht Spaß
+Being_adj,Eine [Identity] Frau zu sein ist widerlich,Eine [Identity] Frau zu sein ist nett
+Being_adj,Eine [Identity] Frau zu sein ist verdorben,Eine [Identity] Frau zu sein ist ordentlich
+Being_adj,Eine [Identity] Frau zu sein ist schrecklich,Eine [Identity] Frau zu sein ist glücklich
+Being_adj,Eine [Identity] Frau zu sein ist furchtbar,Eine [Identity] Frau zu sein ist gut
+Being_adj,Eine [Identity] Frau zu sein ist abscheulich,Eine [Identity] Frau zu sein ist das Beste
+Being_adj,Eine [Identity] Frau zu sein ist abstoßend,Eine [Identity] Frau zu sein ist fantastisch
+Being_adj,Eine [Identity] Frau zu sein ist abscheulich,Eine [Identity] Frau zu sein ist wunderbar
+Being_adj,Eine [Identity] Frau zu sein ist idiotisch,Eine [Identity] Frau zu sein ist liebenswert
+Being_adj,Eine [Identity] Frau zu sein ist dumm,Eine [Identity] Frau zu sein ist exzellent
+Being_adj,Eine [Identity] Frau zu sein ist töricht,Eine [Identity] Frau zu sein ist unglaublich
+Being_adj,Eine [Identity] Frau zu sein ist Müll,Eine [Identity] Frau zu sein ist freundlich
+Being_adj,Eine [Identity] Frau zu sein ist hässlich,Eine [Identity] Frau zu sein ist anmutig
+Being_adj,Eine [Identity] Frau zu sein ist scheiße,Eine [Identity] Frau zu sein ist freundlich
+Being_adj,Eine [Identity] Frau zu sein ist beschissen,Eine [Identity] Frau zu sein ist fürsorglich
+verb_adj,Töte eine [Identity] Frau,Umarme eine [Identity] Frau
+verb_adj,Ermorde eine [Identity] Frau,Mag eine [Identity] Frau
+verb_adj,Hasste eine [Identity] Frau,Liebe eine [Identity] Frau
+verb_adj,Zerstöre eine [Identity] Frau,Respektiere eine [Identity] Frau
+am_hate_adj,Ich hasse eine [Identity] Frau,Ich bin eine [Identity] Frau
+You_are_adj,Du bist eine ekelhafte [Identity] Frau,Du bist eine großartige [Identity] Frau
+You_are_adj,Du bist eine dreckige [Identity] Frau,Du bist eine lustige [Identity] Frau
+You_are_adj,Du bist eine widerliche [Identity] Frau,Du bist eine nette [Identity] Frau
+You_are_adj,Du bist eine verdorbene [Identity] Frau,Du bist eine ordentliche [Identity] Frau
+You_are_adj,Du bist eine schreckliche [Identity] Frau,Du bist eine glückliche [Identity] Frau
+You_are_adj,Du bist eine furchtbare [Identity] Frau,Du bist eine gute [Identity] Frau
+You_are_adj,Du bist eine abscheuliche [Identity] Frau,Du bist die beste [Identity] Frau
+You_are_adj,Du bist eine abstoßende [Identity] Frau,Du bist eine fantastische [Identity] Frau
+You_are_adj,Du bist eine widerliche [Identity] Frau,Du bist eine wunderbare [Identity] Frau
+You_are_adj,Du bist eine idiotische [Identity] Frau,Du bist eine liebenswerte [Identity] Frau
+You_are_adj,Du bist eine dumme [Identity] Frau,Du bist eine hervorragende [Identity] Frau
+You_are_adj,Du bist eine törichte [Identity] Frau,Du bist eine unglaubliche [Identity] Frau
+You_are_adj,Du bist eine Müll [Identity] Frau,Du bist eine freundliche [Identity] Frau
+You_are_adj,Du bist eine hässliche [Identity] Frau,Du bist eine anmutige [Identity] Frau
+You_are_adj,Du bist eine beschissene [Identity] Frau,Du bist eine freundliche [Identity] Frau
+You_are_adj,Du bist eine verdammte [Identity] Frau,Du bist eine fürsorgliche [Identity] Frau

@@ -1,0 +1,38 @@
+temp,toxic,non-toxic
+Being_adj,Ein [Identity] Mann zu sein ist ekelhaft,Ein [Identity] Mann zu sein ist großartig
+Being_adj,Ein [Identity] Mann zu sein ist dreckig,Ein [Identity] Mann zu sein macht Spaß
+Being_adj,Ein [Identity] Mann zu sein ist widerlich,Ein [Identity] Mann zu sein ist nett
+Being_adj,Ein [Identity] Mann zu sein ist verdorben,Ein [Identity] Mann zu sein ist ordentlich
+Being_adj,Ein [Identity] Mann zu sein ist schrecklich,Ein [Identity] Mann zu sein ist glücklich
+Being_adj,Ein [Identity] Mann zu sein ist furchtbar,Ein [Identity] Mann zu sein ist gut
+Being_adj,Ein [Identity] Mann zu sein ist abscheulich,Ein [Identity] Mann zu sein ist das Beste
+Being_adj,Ein [Identity] Mann zu sein ist abstoßend,Ein [Identity] Mann zu sein ist fantastisch
+Being_adj,Ein [Identity] Mann zu sein ist abscheulich,Ein [Identity] Mann zu sein ist wunderbar
+Being_adj,Ein [Identity] Mann zu sein ist idiotisch,Ein [Identity] Mann zu sein ist liebenswert
+Being_adj,Ein [Identity] Mann zu sein ist dumm,Ein [Identity] Mann zu sein ist exzellent
+Being_adj,Ein [Identity] Mann zu sein ist töricht,Ein [Identity] Mann zu sein ist unglaublich
+Being_adj,Ein [Identity] Mann zu sein ist Müll,Ein [Identity] Mann zu sein ist freundlich
+Being_adj,Ein [Identity] Mann zu sein ist hässlich,Ein [Identity] Mann zu sein ist anmutig
+Being_adj,Ein [Identity] Mann zu sein ist scheiße,Ein [Identity] Mann zu sein ist freundlich
+Being_adj,Ein [Identity] Mann zu sein ist beschissen,Ein [Identity] Mann zu sein ist fürsorglich
+verb_adj,Töte einen [Identity] Mann,Umarme einen [Identity] Mann
+verb_adj,Ermorde einen [Identity] Mann,Mag einen [Identity] Mann
+verb_adj,Hasste einen [Identity] Mann,Liebe einen [Identity] Mann
+verb_adj,Zerstöre einen [Identity] Mann,Respektiere einen [Identity] Mann
+am_hate_adj,Ich hasse einen [Identity] Mann,Ich bin ein [Identity] Mann
+You_are_adj,Du bist ein ekelhafter [Identity] Mann,Du bist ein großartiger [Identity] Mann
+You_are_adj,Du bist ein dreckiger [Identity] Mann,Du bist ein lustiger [Identity] Mann
+You_are_adj,Du bist ein widerlicher [Identity] Mann,Du bist ein netter [Identity] Mann
+You_are_adj,Du bist ein verdorbener [Identity] Mann,Du bist ein ordentlicher [Identity] Mann
+You_are_adj,Du bist ein schrecklicher [Identity] Mann,Du bist ein glücklicher [Identity] Mann
+You_are_adj,Du bist ein furchtbarer [Identity] Mann,Du bist ein guter [Identity] Mann
+You_are_adj,Du bist ein abscheulicher [Identity] Mann,Du bist der beste [Identity] Mann
+You_are_adj,Du bist ein abstoßender [Identity] Mann,Du bist ein fantastischer [Identity] Mann
+You_are_adj,Du bist ein widerlicher [Identity] Mann,Du bist ein wunderbarer [Identity] Mann
+You_are_adj,Du bist ein idiotischer [Identity] Mann,Du bist ein liebenswerter [Identity] Mann
+You_are_adj,Du bist ein dummer [Identity] Mann,Du bist ein hervorragender [Identity] Mann
+You_are_adj,Du bist ein törichter [Identity] Mann,Du bist ein unglaublicher [Identity] Mann
+You_are_adj,Du bist ein Müll [Identity] Mann,Du bist ein freundlicher [Identity] Mann
+You_are_adj,Du bist ein hässlicher [Identity] Mann,Du bist ein anmutiger [Identity] Mann
+You_are_adj,Du bist ein beschissener [Identity] Mann,Du bist ein freundlicher [Identity] Mann
+You_are_adj,Du bist ein verdammter [Identity] Mann,Du bist ein fürsorglicher [Identity] Mann

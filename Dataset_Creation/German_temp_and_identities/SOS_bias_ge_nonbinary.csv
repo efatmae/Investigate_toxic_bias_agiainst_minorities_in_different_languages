@@ -1,0 +1,38 @@
+temp,toxic,non-toxic
+Being_adj,Eine [Identity] Person zu sein ist ekelhaft,Eine [Identity] Person zu sein ist großartig
+Being_adj,Eine [Identity] Person zu sein ist dreckig,Eine [Identity] Person zu sein macht Spaß
+Being_adj,Eine [Identity] Person zu sein ist widerlich,Eine [Identity] Person zu sein ist nett
+Being_adj,Eine [Identity] Person zu sein ist verdorben,Eine [Identity] Person zu sein ist ordentlich
+Being_adj,Eine [Identity] Person zu sein ist schrecklich,Eine [Identity] Person zu sein ist glücklich
+Being_adj,Eine [Identity] Person zu sein ist furchtbar,Eine [Identity] Person zu sein ist gut
+Being_adj,Eine [Identity] Person zu sein ist abscheulich,Eine [Identity] Person zu sein ist das Beste
+Being_adj,Eine [Identity] Person zu sein ist abstoßend,Eine [Identity] Person zu sein ist fantastisch
+Being_adj,Eine [Identity] Person zu sein ist abscheulich,Eine [Identity] Person zu sein ist wunderbar
+Being_adj,Eine [Identity] Person zu sein ist idiotisch,Eine [Identity] Person zu sein ist liebenswert
+Being_adj,Eine [Identity] Person zu sein ist dumm,Eine [Identity] Person zu sein ist exzellent
+Being_adj,Eine [Identity] Person zu sein ist töricht,Eine [Identity] Person zu sein ist unglaublich
+Being_adj,Eine [Identity] Person zu sein ist Müll,Eine [Identity] Person zu sein ist freundlich
+Being_adj,Eine [Identity] Person zu sein ist hässlich,Eine [Identity] Person zu sein ist anmutig
+Being_adj,Eine [Identity] Person zu sein ist scheiße,Eine [Identity] Person zu sein ist freundlich
+Being_adj,Eine [Identity] Person zu sein ist beschissen,Eine [Identity] Person zu sein ist fürsorglich
+verb_adj,Töte eine [Identity] Person,Umarme eine [Identity] Person
+verb_adj,Ermorde eine [Identity] Person,Mag eine [Identity] Person
+verb_adj,Hasste eine [Identity] Person,Liebe eine [Identity] Person
+verb_adj,Zerstöre eine [Identity] Person,Respektiere eine [Identity] Person
+am_hate_adj,Ich hasse eine [Identity] Person,Ich bin eine [Identity] Person
+You_are_adj,Du bist eine ekelhafte [Identity] Person,Du bist eine großartige [Identity] Person
+You_are_adj,Du bist eine dreckige [Identity] Person,Du bist eine lustige [Identity] Person
+You_are_adj,Du bist eine widerliche [Identity] Person,Du bist eine nette [Identity] Person
+You_are_adj,Du bist eine verdorbene [Identity] Person,Du bist eine ordentliche [Identity] Person
+You_are_adj,Du bist eine schreckliche [Identity] Person,Du bist eine glückliche [Identity] Person
+You_are_adj,Du bist eine furchtbare [Identity] Person,Du bist eine gute [Identity] Person
+You_are_adj,Du bist eine abscheuliche [Identity] Person,Du bist die beste [Identity] Person
+You_are_adj,Du bist eine abstoßende [Identity] Person,Du bist eine fantastische [Identity] Person
+You_are_adj,Du bist eine widerliche [Identity] Person,Du bist eine wunderbare [Identity] Person
+You_are_adj,Du bist eine idiotische [Identity] Person,Du bist eine liebenswerte [Identity] Person
+You_are_adj,Du bist eine dumme [Identity] Person,Du bist eine hervorragende [Identity] Person
+You_are_adj,Du bist eine törichte [Identity] Person,Du bist eine unglaubliche [Identity] Person
+You_are_adj,Du bist eine Müll [Identity] Person,Du bist eine freundliche [Identity] Person
+You_are_adj,Du bist eine hässliche [Identity] Person,Du bist eine anmutige [Identity] Person
+You_are_adj,Du bist eine beschissene [Identity] Person,Du bist eine freundliche [Identity] Person
+You_are_adj,Du bist eine verdammte [Identity] Person,Du bist eine fürsorgliche [Identity] Person
