@@ -1,0 +1,158 @@
+model,language,attribute,bias
+flan-t5-base,de,Sexual orientation,7.767857142857142
+flan-t5-base,en-us,Sexual orientation,7.135416666666664
+bloom-7b1,en-uk,Religion,5.10185185185185
+aya-expanse-8b,ar,Physical_ability,5.09259259259259
+Llama-3.1-8B,en-uk,Religion,4.509259259259264
+bloom-7b1,ar,Sexual_orientation,4.444444444444444
+flan-t5-base,en-uk,Sexual-Orientation,4.26666666666667
+flan-t5-base,en-uk,Race,3.346031746031743
+bloom-7b1,ar,Physical_ability,3.1481481481481466
+flan-t5-base,en-us,Religion,2.979166666666666
+aya-expanse-8b,ar,Race,2.839506172839507
+bloom-7b1,en-us,Social-Class,2.7711640211640223
+bloom-7b1,en-us,Race,2.6860119047618998
+Llama-3.1-8B,ar-eg,Refugee,2.5925925925925934
+Llama-3.1-8B,ar-eg,Race,2.4691358024691294
+bloom-7b1,ar-eg,Refugee,2.268518518518521
+aya-expanse-8b,en-us,Religion,2.2333333333333303
+flan-t5-base,en-us,Gender,2.051711309523817
+aya-expanse-8b,en-uk,Religion,2.0000000000000036
+aya-expanse-8b,en-uk,Income,1.9131652661064398
+aya-expanse-8b,en-us,Social-Class,1.716931216931214
+bloom-7b1,en-us,Physical ability,1.5625000000000018
+bloom-7b1,en-uk,Race,1.3820105820105846
+aya-expanse-8b,ar-eg,Physical_ability,1.2962962962962974
+bloom-7b1,ar-eg,Sexual_orientation,1.2499999999999931
+Llama-3.1-8B,ar,Physical_ability,1.2345679012345705
+aya-expanse-8b,en-us,Physical ability,1.2083333333333335
+flan-t5-base,en-uk,Disability,0.9583333333333347
+Llama-3.1-8B,en-uk,Income,0.9551820728291291
+flan-t5-base,de,Gender,0.8796296296296265
+flan-t5-base,en-us,Social-Class,0.8779761904761928
+bloom-7b1,ar,Race,0.8395061728395099
+Llama-3.1-8B,ar,Race,0.7901234567901237
+Llama-3.1-8B,de,Religion,0.7638888888888834
+Llama-3.1-8B,en-uk,Sexual-Orientation,0.7555555555555554
+Llama-3.1-8B,ar-eg,Physical_ability,0.7407407407407405
+aya-expanse-8b,ar,Religion,0.7283950617283966
+flan-t5-base,en-us,Race,0.7068452380952329
+gpt-4,ar,Religion,0.6666666666666633
+aya-expanse-8b,ar-eg,Sexual_orientation,0.6481481481481467
+aya-expanse-8b,ar-eg,Race,0.6172839506172835
+leo-mistral-hessianai-7b-chat,de,Gender,0.5787037037037001
+bloom-7b1,de,Religion,0.5787037037036966
+Llama-3.1-8B,ar,Gender,0.5555555555555497
+gpt-4,en-us,Physical ability,0.5520833333333334
+LLaMmlein_1B,de,Social-Class,0.5416666666666666
+aya-expanse-8b,ar-eg,Refugee,0.5092592592592639
+Llama-3.1-8B,ar-eg,Gender,0.4320987654321001
+Llama-3.1-8B,en-us,Social-Class,0.4100529100529114
+LLaMmlein_1B,de,Religion,0.40509259259258995
+gpt-4,en-us,Sexual orientation,0.4037037037037033
+bloom-7b1,en-uk,Income,0.39075630252101146
+flan-t5-base,de,Refugees,0.3333333333333333
+bloom-7b1,de,Refugees,0.33333333333333326
+gpt-4,en-uk,Sexual-Orientation,0.28888888888889
+Llama-3.1-8B,ar-eg,Religion,0.28490028490028685
+gpt-4,ar,Physical_ability,0.2777777777777766
+bloom-7b1,de,Social-Class,0.2708333333333333
+LLaMmlein_1B,de,Refugees,0.24999999999999997
+aya-expanse-8b,ar,Gender,0.24691358024691334
+gpt-4,ar-eg,Religion,0.22792022792022668
+gpt-4,de,Sexual orientation,0.22321428571428334
+gpt-4,en-uk,Disability,0.20833333333333498
+flan-t5-base,en-uk,Gender,0.17658730158730318
+gpt-4,en-uk,Gender,0.16071428571429006
+Llama-3.1-8B,de,Gender,0.13888888888888326
+Llama-3.1-8B,en-us,Sexual orientation,0.12500000000000103
+leo-mistral-hessianai-7b-chat,de,Religion,0.11574074074073992
+gpt-4,en-us,Gender,0.08048115079365341
+flan-t5-base,ar-eg,Gender,0.06172839506172667
+gpt-4,ar,Gender,0.06172839506172667
+flan-t5-base,ar,Race,0.04938271604938
+gpt-4,ar,Sexual_orientation,0.04629629629629334
+flan-t5-base,ar,Sexual_orientation,0.04629629629629334
+gpt-4,ar-eg,Sexual_orientation,0.04629629629628997
+gpt-4,en-uk,Income,0.04061624649860504
+gpt-4,en-us,Social-Class,0.03064373897707667
+flan-t5-base,ar,Religion,0.02469135802469
+Llama-3.1-8B,ar,Religion,4.070817756958907e-16
+flan-t5-base,ar-eg,Refugee,0.0
+flan-t5-base,ar-eg,Physical_ability,0.0
+flan-t5-base,ar-eg,Religion,0.0
+flan-t5-base,ar-eg,Sexual_orientation,0.0
+gpt-4,de,Gender,0.0
+gpt-4,de,Physical ability,0.0
+gpt-4,de,Race,0.0
+gpt-4,de,Religion,0.0
+flan-t5-base,ar,Physical_ability,0.0
+gpt-4,de,Social-Class,0.0
+gpt-4,de,Refugees,0.0
+LLaMmlein_1B,de,Gender,-0.0231481481481501
+flan-t5-base,de,Race,-0.029761904761910003
+gpt-4,en-uk,Religion,-0.03703703703703667
+gpt-4,en-uk,Race,-0.05925925925925668
+Llama-3.1-8B,de,Social-Class,-0.062499999999999965
+flan-t5-base,de,Religion,-0.08101851851852336
+flan-t5-base,de,Social-Class,-0.12500000000000003
+gpt-4,en-us,Religion,-0.13159722222222336
+Llama-3.1-8B,de,Refugees,-0.16666666666666674
+bloom-7b1,en-us,Religion,-0.171875
+flan-t5-base,ar,Gender,-0.18518518518518334
+gpt-4,ar-eg,Gender,-0.18518518518518334
+gpt-4,ar-eg,Race,-0.1851851851851866
+leo-mistral-hessianai-7b-chat,de,Race,-0.2678571428571467
+bloom-7b1,en-us,Gender,-0.28087797619047633
+Llama-3.1-8B,de,Race,-0.3571428571428634
+flan-t5-base,ar-eg,Race,-0.37037037037036996
+Llama-3.1-8B,en-us,Gender,-0.38318452380952017
+flan-t5-base,en-uk,Religion,-0.3981481481481466
+bloom-7b1,de,Sexual orientation,-0.4092261904761935
+gpt-4,en-us,Race,-0.4330357142857167
+gpt-4,ar-eg,Refugee,-0.5092592592592633
+gpt-4,ar,Race,-0.5185185185185234
+Llama-3.1-8B,en-us,Religion,-0.5260416666666675
+bloom-7b1,de,Race,-0.5357142857142899
+bloom-7b1,ar,Religion,-0.5679012345679001
+LLaMmlein_1B,de,Race,-0.5952380952380999
+aya-expanse-8b,en-uk,Gender,-0.6289682539682567
+flan-t5-base,en-us,Physical ability,-0.6770833333333329
+leo-mistral-hessianai-7b-chat,de,Social-Class,-0.71875
+Llama-3.1-8B,ar,Sexual_orientation,-0.7407407407407436
+aya-expanse-8b,ar-eg,Religion,-0.7834757834757798
+gpt-4,ar-eg,Physical_ability,-0.8641975308641999
+bloom-7b1,de,Physical ability,-0.9166666666666666
+aya-expanse-8b,ar,Sexual_orientation,-1.0648148148148167
+bloom-7b1,en-us,Sexual orientation,-1.1458333333333368
+leo-mistral-hessianai-7b-chat,de,Refugees,-1.1666666666666667
+Llama-3.1-8B,ar-eg,Sexual_orientation,-1.2037037037037026
+bloom-7b1,en-uk,Disability,-1.2083333333333335
+aya-expanse-8b,en-us,Gender,-1.21182266009852
+bloom-7b1,ar-eg,Physical_ability,-1.2962962962962936
+bloom-7b1,de,Gender,-1.2962962962963036
+Llama-3.1-8B,en-uk,Gender,-1.3452380952380938
+bloom-7b1,ar-eg,Gender,-1.4197530864197576
+aya-expanse-8b,ar-eg,Gender,-1.6049382716049367
+Llama-3.1-8B,en-uk,Disability,-1.666666666666662
+bloom-7b1,en-uk,Gender,-2.186507936507942
+Llama-3.1-8B,en-us,Physical ability,-2.34375
+bloom-7b1,ar-eg,Religion,-2.450142450142447
+flan-t5-base,de,Physical ability,-2.5833333333333335
+bloom-7b1,en-uk,Sexual-Orientation,-2.651851851851848
+bloom-7b1,ar-eg,Race,-2.77777777777778
+flan-t5-base,en-uk,Income,-3.1190476190476195
+bloom-7b1,ar,Gender,-3.14814814814815
+aya-expanse-8b,en-uk,Sexual-Orientation,-3.4481481481481517
+aya-expanse-8b,en-uk,Disability,-3.6250000000000027
+leo-mistral-hessianai-7b-chat,de,Sexual orientation,-3.65327380952381
+aya-expanse-8b,en-uk,Race,-4.5629629629629616
+leo-mistral-hessianai-7b-chat,de,Physical ability,-4.875
+aya-expanse-8b,en-us,Race,-5.535714285714294
+LLaMmlein_1B,de,Physical ability,-5.916666666666667
+aya-expanse-8b,en-us,Sexual orientation,-5.922222222222223
+Llama-3.1-8B,en-uk,Race,-6.245502645502648
+LLaMmlein_1B,de,Sexual orientation,-6.934523809523809
+Llama-3.1-8B,de,Physical ability,-8.083333333333334
+Llama-3.1-8B,en-us,Race,-8.616071428571436
+Llama-3.1-8B,de,Sexual orientation,-12.11309523809524
