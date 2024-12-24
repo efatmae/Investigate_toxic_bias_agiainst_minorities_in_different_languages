@@ -19,9 +19,15 @@ class HonestEvaluator:
 
         self.language = language
 
-        assert self.language in ['de', 'en', 'ar']
-
-        self.hurtlex = pd.read_csv(f"hurtlex/hurtlex_{self.language.upper()}.tsv", sep="\t")
+        assert self.language in ['de', 'en-us', 'en-uk', 'ar-eg', 'ar']
+        
+        lang_hurtlex = (
+        'ar' if self.language == 'ar-eg' else
+        'en' if self.language in ['en-us', 'en-uk'] else
+        self.language
+        )
+        
+        self.hurtlex = pd.read_csv(f"hurtlex/hurtlex_{lang_hurtlex.upper()}.tsv", sep="\t")
         self.hurtlex = self.hurtlex[self.hurtlex["level"] == "conservative"]
         self.hurtlex["lemma"] = self.hurtlex["lemma"].apply(strip_accent)
 
@@ -59,8 +65,11 @@ class HonestEvaluator:
 
         for sentence_list in predicted_sentence:
             for sentence in sentence_list:
-
+                # if sentence is nan
+                if type(sentence) == float:
+                    continue 
                 sentence = sentence.translate(table)
+
 
                 word_list = sentence.split()
 
@@ -80,6 +89,8 @@ class HonestEvaluator:
 
     def honest_dataframe(self, predicted_words, masked_templates):
         topK = len(predicted_words[0])
+        
+       
         # TODO check all predicted words lists are of the same length
 
         inner_honest = self.honest_score_inner(predicted_words)
@@ -98,6 +109,75 @@ class HonestEvaluator:
         honest_df = pd.concat([honest_df, categories], axis=1)
 
         return honest_score, honest_df
+    
+    def templates(self, data_set=None, path=None):
+  
+        if path is None and data_set is None:
+            raise Exception("You need to choose an option between path and data_set")
+
+        assert data_set in ["all", "binary", "queer_nonqueer"]
+
+        if path is not None:
+            # Load data from a specified path
+            data = pd.read_csv(path, index_col=0, sep='\t').T.to_dict('dict')
+        else:
+            # Use predefined templates based on language and data_set
+            lang_templates = {
+                "de": {
+                    "female": "../Dataset_Creation/German_temp_and_identities/de_sentences_female.csv",
+                    "nonbinary": "../Dataset_Creation/German_temp_and_identities/de_sentences_nonbinary.csv",
+                    "male": "../Dataset_Creation/German_temp_and_identities/de_sentences_male.csv",
+                },
+                "en-uk": {
+                    "female": "../Dataset_Creation/English_temp_and_identities/UK_identities/uk_sentences_female.csv",
+                    "nonbinary": "../Dataset_Creation/English_temp_and_identities/UK_identities/uk_sentences_nonbinary.csv",
+                    "male": "../Dataset_Creation/English_temp_and_identities/UK_identities/uk_sentences_male.csv",
+                },
+                "en-us": {
+                    "female": "../Dataset_Creation/English_temp_and_identities/US_identities/us_sentences_female.csv",
+                    "nonbinary": "../Dataset_Creation/English_temp_and_identities/US_identities/us_sentences_nonbinary.csv",
+                    "male": "../Dataset_Creation/English_temp_and_identities/US_identities/us_sentences_male.csv",
+                },
+                "ar-eg": {
+                    "female": "../Dataset_Creation/Arabic_temp_and_identities/Egyptian_dialect_templates/Egyptian_arabic_HONEST_female_data.csv",
+                    "nonbinary": "../Dataset_Creation/Arabic_temp_and_identities/Egyptian_dialect_templates/Egyptian_arabic_HONEST_non_binary.csv",
+                    "male": "../Dataset_Creation/Arabic_temp_and_identities/Egyptian_dialect_templates/Egyptian_arabic_HONEST_male_data.csv",
+                },
+                "ar": {
+                    "female": "../Dataset_Creation/Arabic_temp_and_identities/Arabic_identities/Arabic_HONEST_female_data.csv",
+                    "nonbinary": "../Dataset_Creation/Arabic_temp_and_identities/Arabic_identities/Arabic_HONEST_non_binary_data.csv",
+                    "male": "../Dataset_Creation/Arabic_temp_and_identities/Arabic_identities/Arabic_HONEST_male_data.csv",
+                },
+            }
+
+            if self.language not in lang_templates:
+                raise Exception(f"Language '{self.language}' is not supported.")
+
+            templates = lang_templates[self.language]
+
+            if data_set == "all":
+                # Combine templates for all gender identities
+                data = {
+                    gender: pd.read_csv(path, index_col=0, sep=',').T.to_dict('dict')
+                    for gender, path in templates.items()
+                }
+            elif data_set == "binary":
+                # Combine binary gender templates
+                data = {
+                    gender: pd.read_csv(path, index_col=0, sep=',').T.to_dict('dict')
+                    for gender, path in templates.items()
+                    if gender in ["female", "male"]
+                }
+            elif data_set == "queer_nonqueer":
+                # Load the nonbinary template only
+                data = {
+                    "nonbinary": pd.read_csv(templates["nonbinary"], index_col=0, sep=',').T.to_dict('dict')
+                }
+            else:
+                raise Exception("Current options are not supported.")
+
+        return data
+
 
     def honest(self, predicted_words, masked_templates):
         honest_score, _ = self.honest_dataframe(predicted_words, masked_templates)
