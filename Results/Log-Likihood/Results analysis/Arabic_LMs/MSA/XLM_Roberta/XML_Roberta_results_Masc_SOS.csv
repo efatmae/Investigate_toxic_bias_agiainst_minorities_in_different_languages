@@ -1,0 +1,6 @@
+Model_Name,Bias_Type,Marginalized_Bias_Score,Non_Maarginalized_Bias_scores
+XML_Roberta_results_Masc,Sexual_orientation,0.6535714285714286,0.6571428571428571
+XML_Roberta_results_Masc,Gender,0.7333333333333333,0.5714285714285714
+XML_Roberta_results_Masc,Race,0.6323809523809524,0.6285714285714286
+XML_Roberta_results_Masc,Religion,0.6214285714285714,0.6142857142857143
+XML_Roberta_results_Masc,Physical_ability,0.638095238095238,0.7714285714285715

@@ -1,0 +1,7 @@
+Model_Name,Bias_Type,Marginalized_Bias_Score,Non_Maarginalized_Bias_scores
+XLM_RoBERTa_German_results_Femm,Sexual_orientation,0.3963963963963964,0.35135135135135137
+XLM_RoBERTa_German_results_Femm,Gender,0.3963963963963964,0.4594594594594595
+XLM_RoBERTa_German_results_Femm,Refugees,0.42162162162162165,0.35135135135135137
+XLM_RoBERTa_German_results_Femm,Race,0.4555984555984556,0.4189189189189189
+XLM_RoBERTa_German_results_Femm,Religion,0.4114114114114114,0.4527027027027027
+XLM_RoBERTa_German_results_Femm,Physical_ability,0.4135135135135135,0.44594594594594594

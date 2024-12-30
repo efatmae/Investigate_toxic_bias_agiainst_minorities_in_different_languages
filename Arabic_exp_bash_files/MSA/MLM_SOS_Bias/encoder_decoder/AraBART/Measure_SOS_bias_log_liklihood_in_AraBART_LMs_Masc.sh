@@ -4,7 +4,7 @@ export MODEL_NAME_OR_PATH=moussaKam/AraBART
 export OUTPUT_PATH=../../../../../Results/Log-Likihood/Arabic_LMs/MSA/encoder_decoder/AraBART/Arabic_Mascline_SOS_AraBART.csv
 
 
-python3.10 ../../../../../LogLiklihood_metric.py \
+python3.12 ../../../../../LogLiklihood_metric.py \
 --input_file ${DATASET} \
 --lm_model ${MODEL_NAME} \
 --lm_model_path ${MODEL_NAME_OR_PATH} \

@@ -1,0 +1,7 @@
+Model_Name,Bias_Type,Marginalized_Bias_Score,Non_Maarginalized_Bias_scores
+AraAlBERT_results_Femm,Sexual_orientation,0.5625,0.5
+AraAlBERT_results_Femm,Gender,0.49074074074074076,0.4444444444444444
+AraAlBERT_results_Femm,Refugees,0.5520833333333334,0.6944444444444444
+AraAlBERT_results_Femm,Race,0.5,0.6388888888888888
+AraAlBERT_results_Femm,Religion,0.5213675213675214,0.5555555555555556
+AraAlBERT_results_Femm,Physical_ability,0.5879629629629629,0.5833333333333334

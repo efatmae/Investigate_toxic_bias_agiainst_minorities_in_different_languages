@@ -1,0 +1,6 @@
+Model_Name,Bias_Type,Marginalized_Bias_Score,Non_Maarginalized_Bias_scores
+AlBERT_results_Masc,Sexual_orientation,0.4624624624624625,0.43243243243243246
+AlBERT_results_Masc,Gender,0.4527027027027027,0.38738738738738737
+AlBERT_results_Masc,Race,0.48906048906048905,0.47297297297297297
+AlBERT_results_Masc,Religion,0.5675675675675675,0.5243243243243243
+AlBERT_results_Masc,Physical_ability,0.40540540540540543,0.2972972972972973

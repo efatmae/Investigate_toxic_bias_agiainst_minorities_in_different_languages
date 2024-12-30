@@ -1,0 +1,7 @@
+Model_Name,Gender,Language,Instructions_languation,dataset_size,No_Hallucination,F1_scores,Rectified_F1_scors
+MT0,Male,German,english,4218,0,0.514461830251304,0.514461830251304
+MT0,NB,German,german,4218,0,0.5,0.5
+MT0,Female,German,german,4292,0,0.5,0.5
+MT0,Female,German,english,4292,0,0.5020969245107176,0.5020969245107176
+MT0,NB,German,english,4218,0,0.5111427216690375,0.5111427216690375
+MT0,Male,German,german,4218,0,0.5,0.5

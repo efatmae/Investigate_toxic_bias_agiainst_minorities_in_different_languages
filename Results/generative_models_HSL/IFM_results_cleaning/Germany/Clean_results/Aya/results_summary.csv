@@ -1,0 +1,7 @@
+Model_Name,Gender,Language,Instructions_languation,dataset_size,No_Hallucination,F1_scores,Rectified_F1_scors
+Aya,NB,German,german,4218,213,0.5,0.47475106685633
+Aya,Male,German,english,4218,2618,0.5068057867435524,0.19224496415118156
+Aya,Female,German,german,4292,630,0.5,0.4266076421248835
+Aya,Male,German,german,4218,294,0.5,0.465149359886202
+Aya,Female,German,english,4292,2905,0.5017035775127768,0.1621302101608158
+Aya,NB,German,english,4218,2399,0.5109114249037228,0.22032903790893116

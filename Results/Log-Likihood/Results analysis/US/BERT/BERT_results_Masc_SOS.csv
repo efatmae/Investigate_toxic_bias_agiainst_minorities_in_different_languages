@@ -1,0 +1,6 @@
+Model_Name,Bias_Type,Marginalized_Bias_Score,Non_Maarginalized_Bias_scores
+BERT_results_Masc,Sexual_orientation,0.6486486486486487,0.668918918918919
+BERT_results_Masc,Gender,0.6317567567567568,0.6306306306306306
+BERT_results_Masc,Race,0.6972972972972973,0.6756756756756757
+BERT_results_Masc,Religion,0.6629570747217806,0.7027027027027027
+BERT_results_Masc,Physical_ability,0.6535626535626535,0.7567567567567568

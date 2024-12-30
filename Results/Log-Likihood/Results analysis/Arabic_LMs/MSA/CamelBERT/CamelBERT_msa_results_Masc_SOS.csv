@@ -1,0 +1,6 @@
+Model_Name,Bias_Type,Marginalized_Bias_Score,Non_Maarginalized_Bias_scores
+CamelBERT_msa_results_Masc,Sexual_orientation,0.5678571428571428,0.5142857142857142
+CamelBERT_msa_results_Masc,Gender,0.6666666666666666,0.6285714285714286
+CamelBERT_msa_results_Masc,Race,0.5771428571428572,0.7714285714285715
+CamelBERT_msa_results_Masc,Religion,0.5714285714285714,0.6
+CamelBERT_msa_results_Masc,Physical_ability,0.5619047619047619,0.6285714285714286

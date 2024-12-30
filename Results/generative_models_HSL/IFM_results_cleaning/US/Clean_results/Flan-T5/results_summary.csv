@@ -1,0 +1,4 @@
+Model_Name,Gender,Language,Instructions_languation,dataset_size,No_Hallucination,F1_scores,Rectified_F1_scors
+Flan-T5,NB,English,english,5624,0,0.5565433854907539,0.5565433854907539
+Flan-T5,Female,English,english,5624,0,0.5734352773826458,0.5734352773826458
+Flan-T5,Male,English,english,5624,0,0.583570412517781,0.583570412517781

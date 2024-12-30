@@ -4,7 +4,7 @@ export MODEL_NAME_OR_PATH=CAMeL-Lab/bert-base-arabic-camelbert-msa
 export OUTPUT_PATH=../../../../../Results/Log-Likihood/Arabic_LMs/MSA/Encoder_only/CamelBERT/Arabic_Femminine_SOS_camelbert_msa.csv
 
 
-python3.10 ../../../../../LogLiklihood_metric.py \
+python3.12 ../../../../../LogLiklihood_metric.py \
 --input_file ${DATASET} \
 --lm_model ${MODEL_NAME} \
 --lm_model_path ${MODEL_NAME_OR_PATH} \

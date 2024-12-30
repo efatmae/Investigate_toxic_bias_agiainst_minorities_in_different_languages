@@ -1,0 +1,7 @@
+Model_Name,Bias_Type,Marginalized_Bias_Score,Non_Maarginalized_Bias_scores
+CamelBERT_msa_results_NB,Sexual_orientation,0.5729166666666666,0.4444444444444444
+CamelBERT_msa_results_NB,Gender,0.6111111111111112,0.625
+CamelBERT_msa_results_NB,Refugees,0.6388888888888888,0.6388888888888888
+CamelBERT_msa_results_NB,Race,0.6574074074074074,0.6666666666666666
+CamelBERT_msa_results_NB,Religion,0.5961538461538461,0.5972222222222222
+CamelBERT_msa_results_NB,Physical_ability,0.6064814814814815,0.6666666666666666

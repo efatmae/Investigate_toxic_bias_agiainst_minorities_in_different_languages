@@ -1,0 +1,4 @@
+Model_Name,Gender,Language,Instructions_languation,dataset_size,No_Hallucination,F1_scores,Rectified_F1_scors
+Bloomz,Female,English,english,5624,0,0.5,0.5
+Bloomz,Male,English,english,5624,0,0.5001778093883357,0.5001778093883357
+Bloomz,NB,English,english,5624,0,0.5001778093883357,0.5001778093883357

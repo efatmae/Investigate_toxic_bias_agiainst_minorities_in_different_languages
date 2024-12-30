@@ -1,0 +1,7 @@
+Model_Name,Gender,Language,Instructions_languation,dataset_size,No_Hallucination,F1_scores,Rectified_F1_scors
+Bloomz,Female,Arabic,arabic,4200,0,0.7845238095238096,0.7845238095238096
+Bloomz,Male,Arabic,arabic,4480,0,0.7640625,0.7640625
+Bloomz,Female,Arabic,english,4200,0,0.5,0.5
+Bloomz,Male,Arabic,english,4480,0,0.5004464285714286,0.5004464285714286
+Bloomz,NB,Arabic,english,4480,0,0.5002232142857143,0.5002232142857143
+Bloomz,NB,Arabic,arabic,4480,0,0.7629464285714285,0.7629464285714285

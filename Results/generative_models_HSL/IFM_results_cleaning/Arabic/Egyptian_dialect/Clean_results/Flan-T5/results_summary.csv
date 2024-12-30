@@ -1,0 +1,7 @@
+Model_Name,Gender,Language,Instructions_languation,dataset_size,No_Hallucination,F1_scores,Rectified_F1_scors
+Flan-T5,Female,Arabic,arabic,4392,4392,0.0,0.0
+Flan-T5,Male,Arabic,arabic,4392,4392,0.0,0.0
+Flan-T5,NB,Arabic,english,4392,0,0.5,0.5
+Flan-T5,Female,Arabic,english,4392,0,0.5,0.5
+Flan-T5,NB,Arabic,arabic,4392,4392,0.0,0.0
+Flan-T5,Male,Arabic,english,4392,0,0.5,0.5

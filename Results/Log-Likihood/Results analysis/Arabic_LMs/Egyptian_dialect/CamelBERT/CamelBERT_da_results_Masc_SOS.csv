@@ -1,0 +1,7 @@
+Model_Name,Bias_Type,Marginalized_Bias_Score,Non_Maarginalized_Bias_scores
+CamelBERT_da_results_Masc,Sexual_orientation,0.6006944444444444,0.5277777777777778
+CamelBERT_da_results_Masc,Gender,0.6018518518518519,0.5694444444444444
+CamelBERT_da_results_Masc,Refugees,0.6701388888888888,0.6666666666666666
+CamelBERT_da_results_Masc,Race,0.6342592592592593,0.6666666666666666
+CamelBERT_da_results_Masc,Religion,0.6346153846153846,0.6666666666666666
+CamelBERT_da_results_Masc,Physical_ability,0.6018518518518519,0.5833333333333334

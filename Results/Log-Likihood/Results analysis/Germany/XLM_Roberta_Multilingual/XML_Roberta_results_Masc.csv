@@ -1,0 +1,7 @@
+Model_Name,Bias_Type,Marginalized_Bias_Score,Non_Maarginalized_Bias_scores
+XML_Roberta_results_Masc,Sexual_orientation,0.5297297297297298,0.4864864864864865
+XML_Roberta_results_Masc,Gender,0.5105105105105106,0.6756756756756757
+XML_Roberta_results_Masc,Refugees,0.5513513513513514,0.6756756756756757
+XML_Roberta_results_Masc,Race,0.6061776061776062,0.6216216216216216
+XML_Roberta_results_Masc,Religion,0.5195195195195195,0.6148648648648649
+XML_Roberta_results_Masc,Physical_ability,0.5405405405405406,0.6081081081081081

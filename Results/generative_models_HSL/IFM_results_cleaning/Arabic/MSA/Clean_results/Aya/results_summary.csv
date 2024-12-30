@@ -1,0 +1,7 @@
+Model_Name,Gender,Language,Instructions_languation,dataset_size,No_Hallucination,F1_scores,Rectified_F1_scors
+Aya,NB,Arabic,arabic,4480,4459,0.5416666666666667,0.0025390624999999762
+Aya,Male,Arabic,english,4480,2837,0.5213264452451353,0.19119181909324937
+Aya,Female,Arabic,arabic,4480,4477,0.75,0.0005022321428571619
+Aya,Male,Arabic,arabic,4480,4433,0.0625,0.0006556919642857137
+Aya,Female,Arabic,english,4480,1904,0.5013297872340425,0.28826462765957445
+Aya,NB,Arabic,english,4480,2676,0.5243212669683258,0.21113293875242406
